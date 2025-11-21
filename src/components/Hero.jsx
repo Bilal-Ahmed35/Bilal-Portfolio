@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { ComputersCanvas } from "./canvas";
 import { styles } from "../styles";
 import ProfilePicture from "../assets/Pictures/Profile Picture.jpg";
+import BilalCV from "../assets/CV/Bilal CV.docx";
 
 
 const Hero = () => {
@@ -67,7 +68,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="/resume.pdf"
+              href={BilalCV}
               download
               className="px-5 py-2 rounded-full border border-[#915eff] bg-[#915eff]/10 text-sm font-medium text-white hover:bg-[#915eff] hover:text-white transition-colors shadow-md shadow-[#915eff]/30"
             >
