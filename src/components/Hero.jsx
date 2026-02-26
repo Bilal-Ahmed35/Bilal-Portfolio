@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ComputersCanvas } from "./canvas";
 import { styles } from "../styles";
-import ProfilePicture from "../assets/Pictures/Profile Picture.jpg";
+import ProfilePicture from "../assets/Pictures/profile-picture.jpg";
 import BilalCV from "../assets/CV/Bilal CV.docx";
 
 
