@@ -51,12 +51,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[14px] sm:text-[17px] max-w-3xl sm:leading-[30px] leading-1"
       >
-        Hi, I’m Bilal Ahmed — a passionate Frontend / Full Stack Developer
-        with hands-on experience in building modern, responsive web applications
-        using technologies like React.js, Tailwind CSS, Node.js, and MongoDB.
-        I’ve worked on real-world freelance projects and participated in
-        hackathons like ReImagine, where I pushed my creativity and technical
-        skills to the next level.
+        Hi, I’m Bilal Ahmed — a passionate Frontend & Full Stack Developer
+        dedicated to crafting modern, responsive, and user-friendly web
+        applications. I specialize in React.js, Tailwind CSS, Node.js, and
+        MongoDB, combining clean design with robust functionality. I have
+        hands-on experience delivering real-world freelance projects and thrive
+        in fast-paced environments, including hackathons like ReImagine, where I
+        challenge my creativity and technical skills to solve complex problems.
+        My focus is on building intuitive digital experiences that not only look
+        great but also perform seamlessly across devices.
       </motion.p>
       <div className="mt-20 flex  flex-wrap gap-10">
         {services.map((service, index) => (

@@ -2,8 +2,7 @@ import { motion } from "framer-motion";
 import { ComputersCanvas } from "./canvas";
 import { styles } from "../styles";
 import ProfilePicture from "../assets/Pictures/profile-picture.jpg";
-import BilalCV from "../assets/CV/Bilal CV.docx";
-
+import BilalCV from "../assets/CV/BilalAhmed-CV.pdf";
 
 const Hero = () => {
   return (
@@ -20,8 +19,8 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Bilal</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white`}>
-            i develop 3d visuals, user <br className="sm:block hidden" />{" "}
-            interfaces and web applications
+            I build modern, responsive web applications{" "}
+            <br className="sm:block hidden" /> and full-stack solutions
           </p>
           <div className="mt-6 flex flex-wrap items-center gap-4">
             <a
